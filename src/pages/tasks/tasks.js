@@ -1,11 +1,13 @@
 import React from 'react';
 import 'devextreme/data/odata/store';
 import DataGrid from 'devextreme-react/data-grid';
-
+import '../../components/font/style.css'
+import './tasks.css'
 export default () => (
   <React.Fragment>
     <h2 className={'content-block'}>Tasks</h2>
-
+    {/* Test Icon */}
+    <span class="icon-Sort-Descending"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
     <DataGrid
                         allowColumnReordering   = {true}
                         allowColumnResizing     = {true}
